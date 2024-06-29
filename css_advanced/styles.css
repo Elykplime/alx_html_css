@@ -4,6 +4,36 @@
     font-family: Source Sans Pro;
 }
 
+/* tutorials_section starts here */
+.tutorials_section {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.tutorials_section h2 span{
+    color: rgba(194, 113, 255, 1);
+    text-align: center;
+    font-weight: bold;
+}
+
+.tutorials_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tutorials_section h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+
+
+
+/* tutorials section ends here */
+
 /* membership_section starts here */
 .membership_section {
     background-color: rgba(7, 22, 41, 1);
