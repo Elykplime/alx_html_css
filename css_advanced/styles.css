@@ -4,13 +4,61 @@
     font-family: Source Sans Pro;
 }
 
+/* landing page starts here */
+
+
+.landing_page {
+    background-blend-mode: color;
+    background: #000000;
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.0001) 0%, #071629 100%);
+    background-image: url(./images/Object.png);
+    background-repeat: no-repeat;
+}
+
+/* landing page ends here */
+
+/* Presenter section starts here */
+
+.presenter_section {
+    background-color: #c271ff;
+    padding: 2.5rem 10rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.presenter_image img {
+    width: 6.5rem;
+}
+
+.presenter_quote {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.presenter_quote blockquote {
+    font-size: .9rem;
+}
+
+.presenter_quote h3 {
+    font-size: .9rem;
+}
+
+.presenter_quote p {
+    font-style: italic;
+}
+
+/* Presenter section ends here */
+
 /* tutorials_section starts here */
 .tutorials_section {
     background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2rem;
-    align-items: center;
+    padding: 2.5rem 7rem;
 }
 
 .tutorials_section h2 span{
@@ -21,7 +69,7 @@
 
 .tutorials_container {
     display: flex;
-    flex-direction: column;
+    gap: 2rem;
 }
 
 .tutorials_section h2 {
@@ -29,7 +77,82 @@
     font-weight: 100;
 }
 
+.tutorials_content{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+.tutorials_images{
+    width: 100%;
+    position: relative;
+}
+
+.tutorials_images .tutorials_banner {
+    width: 100%;
+}
+
+.tutorials_images .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 2rem;
+    width: 2rem;
+}
+
+.tutorials_content_details {
+    padding: .7rem;
+}
+
+.tutorials_content_details h3 {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.tutorials_content_details p {
+    font-size: .7rem;
+    font-weight: lighter;
+    color: rgba(7, 22, 41, 0.5);
+    ;
+}
+
+.tutorials_commentator {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem 0
+}
+
+.tutorials_commentator img {
+    width: 1.5rem;
+}
+
+.tutorials_commentator h4 {
+    color: rgba(194, 113, 255, 1);
+    font-size: .7rem;
+}
+
+.tutorials_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tutorials_rating_icon .fa_grey{
+    color: rgba(216, 216, 216, 1);
+    ;
+}
+
+.tutorials_rating_icon i {
+    font-size: .6rem;
+    color: rgba(194, 113, 255, 1);
+}
+
+.tutorials_rating p {
+    color: rgba(194, 113, 255, 1);
+}
 
 
 /* tutorials section ends here */
