@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* results styling starts here */
+.results_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: darkslategrey;
+}
+
+.results_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 7rem 4rem;
+}
+
+.results_container h2 {
+    color: white;
+    text-align: center;
+}
+
+.results_icons {
+    display: flex;
+    gap: 5rem;
+    height: 8rem;
+    width: 100;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+
+.results_page_overlay{
+   
+}
+
+.results_page_bgimg  {
+
+}  
+
+.results_container_content {
+    color: white;
+    margin-bottom: -10rem;
+
+}
+
+
+/* results styling ends here */
+
+/* contact styling starts here */
+.contact_section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.5rem 7rem;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_container h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 2rem 25rem;
+    width: 25%;
+    /* border-bottom: 1px solid #000; */
+    outline: none;   
+    font-weight: 600;
+    align-items: center; 
+}
+
+.contact_form_button {
+    background-color: #FF6565;
+    width: 7rem;
+    border-radius: 50rem;
+    font-size: .6rem;
+    color: white;
+    padding: .6rem .5rem;
+    border: none;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+
+
+
+/* contact styling end here */
+
+/* Footer styling  starts here */
+footer {
+    background-color: #071629;
+    width: 100%;
+    display: flex;   
+}
+
+.footer_section {
+    padding: 3rem 8rem;
+    width: 100%;
+}
+
+.footer_section p {
+    color: rgb(70, 64, 64);
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer_section img {
+    width: 20%; 
+    padding: .5rem;
+}
+
+.socialmedia_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.fa-brands {
+    color: white;
+    padding: .4rem;
+}
+
+/* Footer styling  ends here */
