@@ -4,11 +4,11 @@
 ## Links
 [HTML File](index.html)
   
-[CSS File](style.css)
+[CSS File](styles.css)
 
 ## Images
 #### Header and Banner
-![alt text](<images/Header and Banner.png>)
+![alt text](./images/>)
 
 #### Quotes and Video List
 ![alt text](<images/Quotes and Video List.png>)
