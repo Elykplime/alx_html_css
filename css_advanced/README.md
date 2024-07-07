@@ -8,7 +8,7 @@
 
 ## Images
 #### Header and Banner
-![alt text](./images/>)
+![alt text](<images/Header and Banner.png>)
 
 #### Quotes and Video List
 ![alt text](<images/Quotes and Video List.png>)
